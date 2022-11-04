@@ -1,0 +1,12 @@
+world-name: world
+show-lighting-on-death: no
+server-jar-file: server.jar
+clear-inv-on-death: no
+discord-link: None
+
+# These are players that are allowed to use dangerous commands like /server_stop
+owners:
+  - CONSOLE
+  
+blacklisted-blocks:
+  - BEDROCK
