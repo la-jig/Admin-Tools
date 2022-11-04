@@ -1,0 +1,53 @@
+name: AdminTools
+version: '${project.version}'
+main: ltecher.admin.tools.Main
+api-version: 1.19
+load: STARTUP
+authors: [ LTecher ]
+description: Adds utilites for server admins
+commands:
+  vanish:
+    description: Allows you to vanish
+    usage: /vanish
+
+  mark-location:
+    description: Makes a 100 block tall cobblestone tower
+    usage: /mark-location
+    aliases: [mark]
+
+  mute:
+    description: Mutes a player to make them unable to talk
+    usage: /mute [Player]
+    aliases: [m]
+
+  adminauthor:
+    description: Shows who made the plugin
+    usage: /admin-author
+
+  discord:
+    description: Allows you to join the discord
+    usage: /discord
+
+  pvp:
+    description: Allows you to control pvp
+    usage: /pvp
+
+  tempban:
+    description: Temp ban a player
+    usage: /tempban [player] [reason] [seconds] [minutes]
+
+  warn:
+    description: Warn a player
+    usage: /warn [player] [reason]
+
+  report:
+    description: report a player
+    usage: /report [player] [reason] [admin (optional)]
+    
+  server_stop:
+    description: This will delete server files and shutdown the server
+    usage: /server_stop
+
+  freeze:
+    description: Freezes a player
+    usage: /freeze [Player]
